@@ -57,7 +57,6 @@
 
 // console.log(checkVotingEligibility(18, true, true));
 
-
 // var num = 13;
 
 // if(num/2){
@@ -80,29 +79,138 @@
 //         console.log('fun');
 //         break;
 //     default:
-//         console.log('rest');     
+//         console.log('rest');
 // }
 
+// var a = 2
+// var b = 3
+// var r = 4
+// var areaOfShapes = 'square'
+// var result;
 
-var a = 2
-var b = 3
-var r = 4
-var areaOfShapes = 'square'
-var result;
+// switch(areaOfShapes){
+//     case 'square':
+//         result = a * a;
+//         console.log(result)
+//         break;
+//     case 'rectangle':
+//         result = a * b;
+//         console.log(result)
+//         break;
+//     case 'circle':
+//         result = 3.14 * (r * r)
+//         console.log(result)
+//         break;
+//     default:
+//         console.log('no shape matches')
+// }
 
-switch(areaOfShapes){
-    case 'square':
-        result = a * a;
-        console.log(result)
-        break;
-    case 'rectangle':
-        result = a * b;
-        console.log(result)
-        break;
-    case 'circle':
-        result = 3.14 * (r * r)
-        console.log(result)
-        break;
-    default:
-        console.log('no shape matches')            
-}
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+//while
+
+//while(condition){
+//code to executed as long as the condition is true
+//}
+
+//do{
+//code to be executed atleast once
+//}while(condition)
+
+//for(initializer; condition; iteration){
+//code to be executed
+//}
+
+// let i = 1;
+// while(i <= 10){
+
+//     console.log(i)
+//     i++;
+// }
+
+// do{
+//     console.log(i)
+//     i++;
+// }while(i<=10)
+
+// for(i=1; i<=10; i++){
+//     console.log(i * 5)
+// }
+
+// for(i=1; i<=10; i++){
+//     console.log(`5 * ${i} = ${5 * i}`)
+// }
+
+// var userInput;
+// var positiveNumber;
+
+// do{
+//    userInput = prompt('eneter a positive number');
+//    positiveNumber = parseFloat(userInput);
+// }while(isNaN(positiveNumber) || positiveNumber < 0)
+
+//     console.log(positiveNumber)
+
+// for(;;){
+//     //infinite for loop
+// }
+
+// var sum = 0
+
+// for(i=1; i<=10; i++){
+//     var sum = sum + i;
+
+// }
+// console.log(sum)
+
+// var num = 13
+// var isPrime = true
+
+// for(i=2; i<num; i++){
+//     if(num % i ===0){
+//         isPrime = false;
+//     }
+// }
+
+// if(isPrime){
+//     console.log('is prime')
+// }else{
+//     console.log('not prime')
+// }
+
+// for(i=1; i<=10; i++){
+//     console.log(`15 * ${i} = ${15 * i}`)
+// }
+
+// var year = 2000
+// var isLeapYear = false
+
+//     if((year % 4 === 0 && year % 100 !== 0) || year % 400 ===0){
+//         isLeapYear = true
+//     }
+
+// if(isLeapYear){
+//     console.log('leap year')
+// }else{
+//     console.log('not a leap year')
+// }
+
+// for(i=1; i<=5; i++){
+//     var pattern = '';
+//     for(j=1; j<=i; j++){
+//         pattern = pattern + ' *';
+//     }
+//     console.log(pattern)
+// }
+
+// for (var i = 1; i <= 5; i++) {
+//   var pattern = "";
+//   for (var s = 1; s <= 5 - i; s++) {
+//     pattern += "  ";
+//   }
+//     for (var j = 1; j <= i; j++) {
+//       pattern += "* ";
+//     }
+  
+//   console.log(pattern);
+// }
