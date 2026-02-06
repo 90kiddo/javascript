@@ -12,4 +12,4 @@
 // console.log(typeof (myAge+''))
 // console.log(typeof myAge)
 
-console.log('' - '') 
+// console.log('' - '') 

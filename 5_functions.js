@@ -22,7 +22,6 @@
 
 // firstName('ajay')
 
-
 // IIFE
 
 // var result = (function (a, b){
@@ -31,8 +30,6 @@
 // })(5, 6)
 
 // console.log(result)
-
-
 
 // const cal = (num1, num2, operator) => {
 
@@ -52,7 +49,7 @@
 //             result = num1 / num2;
 //             return result;
 //         default:
-//             return('none')                
+//             return('none')
 //       }
 // }
 
@@ -75,19 +72,18 @@
 
 // console.log(isReserve('gaurav'))
 
-const isPalindrome = (str) => {
-    let reverse = ''
-     for(let char=str.length -1; char>=0; char--){
-        reverse = reverse + str[char]
-     }
-    //  if(str === reverse){
-    //     return true;
-    //  }else{
-    //     return false
-    //  }
+// const isPalindrome = (str) => {
+//   let reverse = "";
+//   for (let char = str.length - 1; char >= 0; char--) {
+//     reverse = reverse + str[char];
+//   }
+//   //  if(str === reverse){
+//   //     return true;
+//   //  }else{
+//   //     return false
+//   //  }
 
-    return str === reverse ? true : false;
-}
+//   return str === reverse ? true : false;
+// };
 
-console.log(isPalindrome('level'))
-
+// console.log(isPalindrome("level"));
